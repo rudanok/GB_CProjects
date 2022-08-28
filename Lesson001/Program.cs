@@ -6,8 +6,7 @@
 
 Console.WriteLine("Введите число:");
 double number1 = 0;
-bool check1 = false;
-check1 = double.TryParse(Console.ReadLine()!, out number1);
+bool check1 = double.TryParse(Console.ReadLine()!, out number1);
 
 if (check1)
 {
