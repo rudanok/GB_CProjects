@@ -7,10 +7,9 @@
 Console.WriteLine("Введите три разных целых числа:");
 int number1 = 0; int number2 = 0; int number3 = 0;
 int max = 0;
-bool check1 = false; bool check2 = false; bool check3 = false;
-check1 = int.TryParse(Console.ReadLine()!, out number1);
-check2 = int.TryParse(Console.ReadLine()!, out number2);
-check3 = int.TryParse(Console.ReadLine()!, out number3);
+bool check1 = int.TryParse(Console.ReadLine()!, out number1);
+bool check2 = int.TryParse(Console.ReadLine()!, out number2);
+bool check3 = int.TryParse(Console.ReadLine()!, out number3);
 
 if (number1 == number2 || number1 == number3 || number2 == number3)
 {
