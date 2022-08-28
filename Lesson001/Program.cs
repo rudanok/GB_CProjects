@@ -14,6 +14,10 @@ if (check1 && check2)
 {
     if (number1 > number2) Console.Write($"Число {number1} больше, чем число {number2}.");
     if (number1 < number2) Console.Write($"Число {number2} больше, чем число {number1}.");
-    if (number1 == number2) Console.Write($"Введённые числа равны.");    
+    if (number1 == number2) Console.Write("Введённые числа равны.");    
+}
+else
+{
+    Console.Write("Некорректный ввод данных!");
 }
 
