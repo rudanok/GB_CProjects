@@ -5,10 +5,10 @@
 //a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введите два целых числа:");
-int number1 = 0; int number2 = 0;
-bool check1 = false; bool check2 = false;
-check1 = int.TryParse(Console.ReadLine()!, out number1);
-check2 = int.TryParse(Console.ReadLine()!, out number2);
+int number1 = 0;
+int number2 = 0;
+bool check1 = int.TryParse(Console.ReadLine()!, out number1);
+bool check2 = int.TryParse(Console.ReadLine()!, out number2);
 
 if (check1 && check2)
 {
